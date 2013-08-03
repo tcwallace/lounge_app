@@ -1,10 +1,17 @@
-<h1>London's Lounge</h1>
-	<p>
-  		Welcome to London's Lounge, a place for a group of local friends to connect, chat, 	share ideas, and have fun. 
-	<p>  	  	
-		London's Lounge was created using the 
- 	  	<a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
- 	  	sample application.
-    </p>
+<div class="center hero-unit">
+  <h1>Welcome to London's Lounge</h1>
+	<h2>
+  		A safe space for a group of local friends to connect.
+	</h2>
+		<p>  	  	
+			London's Lounge was created using the 
+ 	  		<a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
+ 	  		sample application.
+    	</p>
+
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
 
 
